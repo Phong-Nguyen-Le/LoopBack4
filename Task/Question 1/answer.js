@@ -1,6 +1,5 @@
 function rentContainers(neededContainer, list) {
   let result = {};
-  const totalContainer = list.reduce((acc, cur) => (acc += cur.container), 0);
   list.sort((a, b) => a.totalCost / a.container - b.totalCost / b.container);
   let rentedContainers = [];
   let remainingContainers = neededContainer;
