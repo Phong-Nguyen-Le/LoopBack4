@@ -4,7 +4,7 @@ Relational database
 
 # 2 Why ->
 
-# Strong point
+<!-- Strong point -->
 
 Structured Data: schema with relationships that can be enforced through foreign keys.
 
@@ -14,4 +14,4 @@ Join Operations: SQL databases are good at handling JOIN operations, which seem 
 
 Data Integrity: Relational databases enforce data integrity through constraints, which is important for e-commerce data.
 
-# Weak point
+<!-- Weak point -->
